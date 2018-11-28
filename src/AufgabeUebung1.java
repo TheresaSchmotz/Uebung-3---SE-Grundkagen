@@ -1,9 +1,14 @@
 import javax.swing.*;
 
-public class AugabeUebung1 {
+public class AufgabeUebung1 {
+
+
+    static int alter = 19 ;
+
     public static void main(String[]args){
 
-        int alter = 19 ;
+
+
         String wert1 = JOptionPane.showInputDialog("Bitte geben sie etwas ein.");
 
         switch(wert1){
