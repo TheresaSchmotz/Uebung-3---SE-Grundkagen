@@ -21,9 +21,10 @@ public class AufgabeUebung1 {
             case "Peter Pan":
                 JOptionPane.showMessageDialog(null,"Bangarang");
                 break;
-
             default:
                 System.err.println("SORRY DAS WAR FEHLERHAFT!");
         }
+        //zu Aufgabe 4
+        System.out.println(Person.name + " " + Person.alter);
     }
 }
